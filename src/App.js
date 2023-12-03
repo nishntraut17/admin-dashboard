@@ -155,6 +155,7 @@ const App = () => {
           <th><input
             type='checkbox'
             onChange={toggleSelectAllOnPage}
+            checked={selectAllOnPage}
           /></th>
           <th>Name</th>
           <th>Email</th>
